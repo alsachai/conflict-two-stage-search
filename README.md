@@ -18,3 +18,8 @@
 
   - Run ```python main_ours.py``` to start the testing.
   - Define the scenario in ```config_ds_1.yaml``` and ```ds_1.json```
+
+
+## Appendix:
+
+  - Appendix mentioned in the paper is shared in ```Appendix.pdf```
