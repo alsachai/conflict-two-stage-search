@@ -141,7 +141,7 @@ class Chromosome:
             self.y = 0
             return
 
-        if resultObj['fault'] is not None:      
+        if resultObj['fault'] == 'ego':      
                 util.print_debug(" ***** Found an accident where ego is at fault ***** ")
                 self.is_accident = True
                 if os.path.exists('AccidentScenario') == False:
